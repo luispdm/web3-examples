@@ -1,0 +1,14 @@
+{
+  "name": "web3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "example": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^4.1.1"
+  }
+}
