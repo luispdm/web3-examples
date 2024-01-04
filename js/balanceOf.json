@@ -1,0 +1,12 @@
+{ 
+    "id": 3, 
+    "jsonrpc": "2.0", 
+    "method": "eth_call", 
+    "params": [ 
+        { 
+            "data": "0x70a082310000000000000000000000006286374c5f42659823f54d56fb8387d86072033d", 
+            "to": "CONTRACT"
+        },
+        "0xBLOCK"
+    ] 
+}

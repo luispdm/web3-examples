@@ -2,13 +2,14 @@
   "name": "web3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "web3data.js",
   "scripts": {
-    "example": "node index.js"
+    "example": "node web3data"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "web3": "^4.1.1"
+    "ethers": "^6.9.0",
+    "web3": "^4.2.2"
   }
 }
