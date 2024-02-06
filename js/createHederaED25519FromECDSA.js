@@ -48,7 +48,6 @@ async function main() {
          *
          * Import an ECSDA private key
          */
-        // blackhole staker
         const privateKey = PrivateKey.fromStringECDSA('your_ecdsa_private_key')
         console.log(`Private key: ${privateKey.toStringDer()}`);
 
