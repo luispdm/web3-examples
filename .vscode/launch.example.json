@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "AssetMinter",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/python/asset_minter.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Node ethers.js",
+            "program": "${workspaceFolder}/js/ethers.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        }
+    ]
+}
