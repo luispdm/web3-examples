@@ -5,7 +5,7 @@ from web3.middleware import geth_poa_middleware
 import random
 
 # Define the number of assets to create
-number_of_assets = 500  # Change this to create more or fewer assets
+number_of_assets = 1  # Change this to create more or fewer assets
 
 
 # Load the environment variables from .env file
